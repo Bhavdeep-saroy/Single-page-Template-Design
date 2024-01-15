@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+.top-left {
+  position: absolute;
+  top: 302px;
+  left: 50px;
+      top: 302px;
+    left: 50px;
+}
+
+.top-right {
+  position: absolute;
+  top: 80px;
+  right: 16px;
+
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 0px;
+
+}
+
+#section2 {
+  height: 0px;
+
+}
+
+
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+</style>
+
+
+</head>
+<body style="background-color: #FDEDEC;">
+
+<nav class="navbar navbar-inverse"  data-spy="affix" data-offset-top="197" style="background-color: #FDEDEC; border-color: transparent;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="html/DSxOAUB0raA.png" style="height: 30px;"></a>
+    </div>
+  
+    <ul class="nav navbar-nav navbar-right">
+
+ <li><a style="color: black;font-size: 20px;"  href="#">Features</a></li>&emsp;
+          <li><a  style="color: black;font-size: 20px;"  href="#">Privacy</a></li>
+          <li><a  style="color: black;font-size: 20px;"  href="#">Help Center</a></li>
+          <li><a  style="color: black;font-size: 20px;"  href="#">Blog</a></li>
+          <li><a  style="color: black;font-size: 20px;"  href="#">For Business</a></li>
+        
+       </li>
+<li><a  style="color: black;font-size: 20px;" href="#">WhatsApp Web </a></li>&emsp;&emsp;
+  
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="background-color: #82E0AA ; color: black;border-color: transparent;">Sing Up </button>&emsp;
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         <form action="/action_page.php">
+  <div class="form-group">
+<label for="name"> Name</label>
+<input type="name" class="form-control" id="name"  name="name" placeholder="Name"  value="" required>
+
+<label for="number"> Number</label>
+<input type="number" class="form-control" name=" number" id="number" placeholder="mobile number" >
+
+<label for="date of barth">Date of Barth</label>
+<input type="date of barth" name="  date of barth" placeholder="D.O.B." id="D.O.B." class="form-control">
+
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+<label for="heading" type >Log in to Facebook</label>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+     
+
+
+    </ul>
+  </div>
+</nav>
+  
+  <div class="jumbotron text-center"  style="background-color: #FDEDEC;">
+    <div class="container">
+
+
+
+<div class="container">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+<br>
+
+<div class="main" id="section1">
+<a href="#section2"><i class="fa-solid fa-chevron-down"></i></a>
+</div>
+
+<br>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/whatsappimage.png" style=" height: 603px;">
+      </div>
+
+      <div class="item">
+        <img src="img/whatsapp-desktop-video-call-feature.webp" alt="Chicago" style=" height: 603px;">
+      </div>
+    
+      <div class="item">
+        <img src="img/whatsapp-features-01.jpg" alt="New york" style="height: 603px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+
+  <div class="top-left">
+<h1>Message <br>privately</h1>
+
+<p>Simple, reliable, private messaging and <br>calling for free*, available all over the <br> world.</p>
+  </div>
+  <div class="top-right">
+<img src="img/329792464_534173148815054_3736500652022655929_n.png" style="width: 336px;"><br>
+<img src="img/318567080_617695970110803_5923371384204745052_n.png" style="height: 69px;"><br>
+<img src="img/327063196_5800887573364035_3294745791563659576_n.png" style=" width: 421px;"><br>
+<img src="img/327713084_566495871797259_1779906837439389762_n.png" style="height: 248px;"><br><br>
+<img src="img/323914620_1571722909934742_4947035793330347072_n.png" style="width:302px;">
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="container">
+<img src="img/315574582_669241857978207_6336028129238262344_n (1).png" style="width: 1181px;">
+</div><br><br><br>
+
+  
+
+<div class="container">
+<h1 style="color:black;">With private messaging and calling, you can <br>be yourself, speak freely and feel close to the<br> most important people in your life no<br> matter where they are.</h1>
+</div><br><br><br>
+
+<div class="container">
+<img src="img/315632381_5616928641708856_9210500231334849736_n.png" style="width: 1181px;">
+</div><br><br><br><br>
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6"><br><br><br><br>
+      <h1 style="color:black; font-size: 60px;">Never miss a <br>moment with voice <br>and video calls</h1><br><br>
+      <p  style="color:black; font-size:20px">From a group call to classmates to a quick call with mom, <br>feel like you’re in the same room with voice and video<br> calls.</p>
+<br><br><br>
+
+
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+
+    </div>
+    <div class="col-sm-6">
+    <img src="img/316211879_640016534274402_8272733547019635528_n.png">
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<i class="fas fa-wifi"></i>
+
+<br><br><br><br><br><br>
+<div class="container">
+<div class="row" style="background-color: black;">
+<div class="col-sm-6">
+<img src="img/316036583_870096634427722_4468595013887544943_n.png">
+
+
+</div>
+
+
+
+<div class="col-sm-6"><br><br><br><br><br><br><br><br><br><br>
+<h1 style="color:white; font-size: 70px;">Speak</h1>
+<h1 style="color:#ABEBC6; font-size: 70px;">freely</h1><br><br><br>
+<p style="color:white;font-size: 18px;">With end-to-end encryption, your personal messages and <br>calls are secured. Only you and the person you're talking<br> to can read or listen to them, and nobody in between, not<br> even WhatsApp.</p>
+
+</div>
+</div>
+</div>
+</div>
+</div><br><br><br><br><br><br><br><br>
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-6"><br><br><br><br><br><br><br><br>
+<h1 style="color:black; font-size:50px">Keep in touch<br>with your groups</h1><br><br>
+<p  style="color:black;">Whether it's planning an outing with friends or simply<br> staying on top of your family chats, group conversations<br> should feel effortless.</p>
+</div>
+<div class="col-sm-6" style="background-color:grey;" >
+  <img style="background-image: url( img/318716844_644367477472796_6799212725643495984_n.png);">
+<img src="img/318759416_815630979518701_2490140615586319278_n.png">
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<img src="img/">
+</div>
+<div class="col-sm-6" style="background-color:grey;" >
+  <img style="background-image: url( img/318716844_644367477472796_6799212725643495984_n.png);">
+<img src="img/318759416_815630979518701_2490140615586319278_n.png">
+
+
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br><br>
+
+
+<div class="container">
+<div class="row"> 
+<div class="col-sm-6">
+<img src="img/Status-profile-rings-WhatsApp.webp" style="height: 600px;">
+</div></h1><br><br><br><br>
+
+<div class="col-sm-6">l</h1><br><br><br><br></h1><br><br>
+<h1 style="color:black; font-size: 79px;">Say what<br>you feel</h1><br><br><br><br>
+<p style="color:black;">Express yourself without words. Use stickers and GIFs or<br> share everyday moments on Status. Record a voice<br> message for a quick hello or a longer story.</p>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="progress"></div>
+
+<div class="cube-wrap">
+  <div class="cube">
+    <div class="side top"></div>
+    <div class="side bottom"></div>
+    <div class="side front"></div>
+    <div class="side back"></div>
+    <div class="side left"></div>
+    <div class="side right"></div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="main" id="section2">
+<a href="#section1"><i class="fa-solid fa-chevron-up"></i></a>
+</div>
+</body>
+</html>
