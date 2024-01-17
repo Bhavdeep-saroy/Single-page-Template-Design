@@ -1,4 +1,4 @@
-Project Name : Url Shortener
+Project Name : Templates
 Project auther : Bhavdeep
  
  Small details of the project -->
