@@ -1,5 +1,5 @@
-Project Name : Templates
-Project auther : Bhavdeep
+## Project Name : Templates
+### Project author : Bhavdeep
  
  Small details of the project -->
 
